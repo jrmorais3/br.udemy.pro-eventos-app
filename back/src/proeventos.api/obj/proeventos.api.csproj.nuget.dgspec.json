@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj": {}
+    "c:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj": {}
   },
   "projects": {
-    "C:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj": {
+    "c:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj",
+        "projectUniqueName": "c:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj",
         "projectName": "proeventos.api",
-        "projectPath": "C:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj",
+        "projectPath": "c:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj",
         "packagesPath": "C:\\Users\\junior_morais\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\pro-eventos\\back\\src\\proeventos.api\\obj\\",
+        "outputPath": "c:\\Git\\pro-eventos\\back\\src\\proeventos.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\junior_morais\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,6 @@
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +39,26 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
@@ -63,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
