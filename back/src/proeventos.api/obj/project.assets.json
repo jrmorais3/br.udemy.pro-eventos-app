@@ -1298,11 +1298,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj",
+      "projectUniqueName": "C:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj",
       "projectName": "proeventos.api",
-      "projectPath": "c:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj",
+      "projectPath": "C:\\Git\\pro-eventos\\back\\src\\proeventos.api\\proeventos.api.csproj",
       "packagesPath": "C:\\Users\\junior_morais\\.nuget\\packages\\",
-      "outputPath": "c:\\Git\\pro-eventos\\back\\src\\proeventos.api\\obj\\",
+      "outputPath": "C:\\Git\\pro-eventos\\back\\src\\proeventos.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\junior_morais\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1312,6 +1312,7 @@
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1373,7 +1374,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
