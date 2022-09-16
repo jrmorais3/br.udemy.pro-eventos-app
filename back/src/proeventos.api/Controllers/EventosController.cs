@@ -10,11 +10,11 @@ namespace proeventos.api.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class EventoController : ControllerBase
+    public class EventosController : ControllerBase
     {
         private readonly DataContext _context;
 
-        public EventoController(DataContext _context)
+        public EventosController(DataContext _context)
         {
             this._context = _context;
         }   
